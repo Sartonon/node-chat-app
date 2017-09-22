@@ -4,20 +4,7 @@
     <meta charset="utf-8">
   </head>
   <body>
-    <p>hello</p>
-
-    <iframe src="https://www.perille.fi/perillewidget?&lng=fi" height="340px" width="250px" scrolling="no" style="border-radius:3px;border:none;"></iframe>
     <script src="/socket.io/socket.io.js"></script>
-    <script>
-      var socket = io();
-
-      socket.on('connect', () => {
-        console.log("Connected to server");
-      });
-
-      socket.on('disconnect', () => {
-        console.log("Disconnected from server");
-      });
-    </script>
+    <script src=/js/index.js></script>
   </body>
 </html>
